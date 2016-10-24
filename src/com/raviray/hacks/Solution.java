@@ -25,7 +25,7 @@ public class Solution {
 
 		//output
 		// editing from git hub
-		// editing on local
+		// editing on local machine
 		System.out.println(o.powerof2(16));
 		System.out.println(o.powerof2(21));
 	}
