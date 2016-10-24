@@ -1,10 +1,5 @@
 package com.raviray.hacks;
 
-import java.io.UnsupportedEncodingException;
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.Collections;
-
 public class Solution {
 
 	public String getDescription(String obj) {
@@ -24,7 +19,7 @@ public class Solution {
 		}
 	}// end of Inner
 
-	public static void main(String[] args) throws NumberFormatException, UnsupportedEncodingException {
+	public static void main(String[] args) {
 		Inner.Private o = (new Inner()).new Private();
 
 		System.out.println(o.powerof2(16));
