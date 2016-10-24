@@ -11,6 +11,7 @@ public class Solution {
 		return obj;
 	}
 
+	// inner static class
 	static class Inner {
 		private class Private {
 			private String powerof2(int num) {
