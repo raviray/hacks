@@ -23,6 +23,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Inner.Private o = (new Inner()).new Private();
 
+		//output
 		System.out.println(o.powerof2(16));
 		System.out.println(o.powerof2(21));
 	}
