@@ -24,6 +24,7 @@ public class Solution {
 		Inner.Private o = (new Inner()).new Private();
 
 		//output
+		// editing from git hub
 		System.out.println(o.powerof2(16));
 		System.out.println(o.powerof2(21));
 	}
