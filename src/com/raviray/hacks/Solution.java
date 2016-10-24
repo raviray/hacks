@@ -23,6 +23,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Inner.Private o = (new Inner()).new Private();
 
+		// editing on remote server
 		//output
 		// editing from git hub
 		System.out.println(o.powerof2(16));
